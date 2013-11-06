@@ -77,7 +77,7 @@
 
 #uncomment to set environment variables in passenger or unicorn
 # Set environment variables as specified in cookbooks/env_vars/attributes/env_vars.rb
-#include_recipe "env_vars"
+include_recipe "env_vars"
 
 
 #uncomment to include the mysql_replication_check recipe
@@ -85,7 +85,7 @@
 
 #uncomment to include the mysql_administrative_tools recipe
 # additional configuration of this recipe is required
-#include_recipe "mysql_administrative_tools"
+include_recipe "mysql_administrative_tools"
 
 #uncomment to include the Elasticsearch recipe
 #include_recipe "elasticsearch"
